@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <Script src="scripts.js" defer></Script>
+    <link rel="stylesheet" href="https://unpkg.com/@picocss/pico@latest/css/pico.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <body>
+        <main class="container">
+            <nav>
+                <ul>
+                    <li><strong>Pirkinių sąrašas</strong></li>
+                </ul>
+            </nav>
+            <section>
+                <div id = "todo-input-field">
+                <label for="todo-input">Įrašykite pirkinį, kurį norite pridėti prie sąrašo</label>
+                <!-- Irasymo vieta -->
+                <input id="todo-input" onclick ="" type="text" placeholder="Sąrašas">
+                <p></p>
+                </div>
+                <div class="grid">
+                    <!-- Issaugojimo mygtukas -->
+                    <button id="todo-button-add" >Išsaugoti</button>
+
+                    <button id="todo-button-clear" onclick="addShoppingListEntry()" class="secondary">Valyti</button>
+                </div>
+            </section>
+            <section>
+                <!-- <ul class="todo" id="todo-list">
+                   <li></li>
+                </ul> -->
+                <section id="todo-app">
+                    <!-- Kur veiks mano kodas -->
+                    <p>Sarasas yra tuscias!!</p>
+                </section>
+            </section>
+        </main>
+    </body>
+</body>
+</html>
